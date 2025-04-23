@@ -1,0 +1,28 @@
+.input-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+    color: rgb(255, 255, 255, 0.75);
+    font-size: 18px;
+    transition: 0.25s;
+}
+.input-box input:focus + i {
+    color: white;
+}
+
+.remember-forgot-box {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.remember-forgot-box h5 {
+    font-weight: normal;
+}
+
+.rememver-me {
+    display: flex;
+    gap: 8px;
+}

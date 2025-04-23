@@ -1,0 +1,32 @@
+.login-title {
+    margin-bottom: 16px;
+}
+
+.input-box {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 16px 10px 38px;
+    border-radius: 99px;
+    border: solid 3px transparent;
+    background: rgb(255, 255, 255, 0.1);
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-weight: 500;
+    transition: 0.25s;
+}
+.input-box input:focus {
+    border: solid 3px rgb(255, 255, 255, 0.25);
+}
+.input-box input::placeholder {
+    color: rgb(255, 255, 255, 0.75);
+}
+.input-box input::-ms-reveal {
+    filter: invert(100%)
+}
